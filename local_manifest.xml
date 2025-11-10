@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device tree for Motorola Capri -->
+  <project
+      path="device/motorola/capri"
+      name="LineageOS/android_device_motorola_capri"
+      remote="github"
+      revision="lineage-23.0" />
+
+  <!-- Common device tree for sm6225 platform -->
+  <project
+      path="device/motorola/sm6225-common"
+      name="LineageOS/android_device_motorola_sm6225-common"
+      remote="github"
+      revision="lineage-23.0" />
+
+  <!-- Kernel tree -->
+  <project
+      path="kernel/motorola/sm6225"
+      name="LineageOS/android_kernel_motorola_sm6225"
+      remote="github"
+      revision="lineage-23.0" />
+
+  <!-- Common vendor blobs -->
+  <project
+      path="vendor/motorola/sm6225-common"
+      name="TheMuppets/proprietary_vendor_motorola_sm6225-common"
+      remote="github"
+      revision="lineage-23.0" />
+
+  <!-- Vendor blobs for Capri -->
+  <project
+      path="vendor/motorola/capri"
+      name="TheMuppets/proprietary_vendor_motorola_capri"
+      remote="github"
+      revision="lineage-23.0" />
+
+</manifest>
