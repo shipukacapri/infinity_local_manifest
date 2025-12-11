@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- Device tree for Motorola Capri -->
+  <!-- Device tree for Motorola Capri (your fork) -->
   <project
       path="device/motorola/capri"
-      name="LineageOS/android_device_motorola_capri"
+      name="shipukacapri/android_device_motorola_capri"
       remote="github"
       revision="lineage-23.0" />
 
-  <!-- Common device tree for sm6225 platform -->
+  <!-- Common device tree for sm6225 platform (your fork) -->
   <project
       path="device/motorola/sm6225-common"
-      name="LineageOS/android_device_motorola_sm6225-common"
+      name="shipukacapri/android_device_motorola_sm6225-common"
       remote="github"
       revision="lineage-23.0" />
 
-  <!-- Kernel tree -->
+  <!-- Kernel tree (your fork) -->
   <project
       path="kernel/motorola/sm6225"
-      name="LineageOS/android_kernel_motorola_sm6225"
+      name="shipukacapri/android_kernel_motorola_sm6225"
       remote="github"
       revision="lineage-23.0" />
 
-  <!-- Common vendor blobs -->
+  <!-- Common vendor blobs (your fork) -->
   <project
       path="vendor/motorola/sm6225-common"
-      name="TheMuppets/proprietary_vendor_motorola_sm6225-common"
+      name="shipukacapri/proprietary_vendor_motorola_sm6225-common"
       remote="github"
       revision="lineage-23.0" />
 
-  <!-- Vendor blobs for Capri -->
+  <!-- Vendor blobs for Capri (your fork) -->
   <project
       path="vendor/motorola/capri"
-      name="TheMuppets/proprietary_vendor_motorola_capri"
+      name="shipukacapri/proprietary_vendor_motorola_capri"
       remote="github"
       revision="lineage-23.0" />
-
 </manifest>
