@@ -21,6 +21,22 @@
     remote="github"
     revision="lineage-21.0-legacy-um" />
 
+
+<!-- 1) QCOM policy helpers: hardware/qcom/sepolicy
+     Some BoardConfig/common makefiles expect hardware/qcom policy helpers. -->
+<project name="shipukacapri/android_device_qcom_sepolicy"
+         path="hardware/qcom/sepolicy"
+         remote="github"
+         revision="lineage-23.0" />
+
+  
+<!-- 2) QCOM CAF common: hardware/qcom-caf/common
+     Needed for QSSI/CAF compatibility matrices and vendor compatibility files. -->
+<project name="shipukacapri/android_hardware_qcom-caf_common"
+         path="hardware/qcom-caf/common"
+         remote="github"
+         revision="lineage-23.0" />
+  
   
   <!-- Common device tree for sm6225 platform (your fork) -->
   <project
