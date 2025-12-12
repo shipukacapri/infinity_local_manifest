@@ -30,12 +30,6 @@
          revision="lineage-23.0" />
 
   
-<!-- 2) QCOM CAF common: hardware/qcom-caf/common
-     Needed for QSSI/CAF compatibility matrices and vendor compatibility files. -->
-<project name="shipukacapri/android_hardware_qcom-caf_common"
-         path="hardware/qcom-caf/common"
-         remote="github"
-         revision="lineage-23.0" />
 
 <!-- external/chromium-webview (large) - include if your base requires WebView build -->
   <project name="shipukacapri/android_external_chromium-webview"
