@@ -36,7 +36,12 @@
          path="hardware/qcom-caf/common"
          remote="github"
          revision="lineage-23.0" />
-  
+
+<!-- external/chromium-webview (large) - include if your base requires WebView build -->
+  <project name="shipukacapri/android_external_chromium-webview"
+           path="external/chromium-webview"
+           remote="github"
+           revision="main" />
   
   <!-- Common device tree for sm6225 platform (your fork) -->
   <project
