@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Device tree for Motorola G10 Power capri (your fork) -->
+  <project
+      path="device/motorola/capri"
+      name="shipukacapri/android_device_motorola_capri"
+      remote="github"
+      revision="derpfest" />
+
+ <!-- Common device tree for sm6225 platform (your fork) -->
+  <project
+      path="device/motorola/sm6225-common"
+      name="LineageOS/android_device_motorola_sm6225-common"
+      remote="github"
+      revision="lineage-23.0" />
+
+   <!-- Kernel tree (your fork) -->
+  <project
+      path="kernel/motorola/sm6225"
+      name="LineageOS/android_kernel_motorola_sm6225"
+      remote="github"
+      revision="lineage-23.0" />
+  
+  <!-- Vendor blobs for capri (your fork) -->
+  <project
+      path="vendor/motorola/capri"
+      name="TheMuppets/proprietary_vendor_motorola_capri"
+      remote="github"
+      revision="lineage-23.0" />
+
+   <!-- Common vendor blobs (your fork) -->
+  <project
+      path="vendor/motorola/sm6225-common"
+      name="TheMuppets/proprietary_vendor_motorola_sm6225-common"
+      remote="github"
+      revision="lineage-23.0" />
+  
+<!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
+<project
+    name="LineageOS/android_hardware_motorola"
+    path="hardware/motorola"
+    remote="github"
+    revision="lineage-23.0" />
+    
+<!-- QCOM vendor SEPolicy (contains device/qcom/sepolicy_vndr/SEPolicy.mk) -->
+<project
+    name="LineageOS/android_device_qcom_sepolicy_vndr"
+    path="device/qcom/sepolicy_vndr"
+    remote="github"
+    revision="lineage-21.0-legacy-um" />
+
+
+<!-- QCOM policy helpers: hardware/qcom/sepolicy
+     Some BoardConfig/common makefiles expect hardware/qcom policy helpers. -->
+<project name="LineageOS/android_device_qcom_sepolicy"
+         path="hardware/qcom/sepolicy"
+         remote="github"
+         revision="lineage-23.0" />
+
+</manifest>
