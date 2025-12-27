@@ -6,7 +6,7 @@
       path="device/motorola/capri"
       name="shipukacapri/android_device_motorola_capri"
       remote="github"
-      revision="derpfest" />
+      revision="infinity" />
 
  <!-- Common device tree for sm6225 platform (your fork) -->
   <project
