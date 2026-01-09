@@ -11,7 +11,7 @@
  <!-- Common device tree for sm6225 platform (your fork) -->
   <project
       path="device/motorola/sm6225-common"
-      name="shipukacapri/android_device_motorola_sm6225-common"
+      name="LineageOS/android_device_motorola_sm6225-common"
       remote="github"
       revision="lineage-22.2" />
 
@@ -35,13 +35,6 @@
       name="TheMuppets/proprietary_vendor_motorola_sm6225-common"
       remote="github"
       revision="lineage-22.2" />
-
-   <!-- dolby for moto -->
-  <project
-    name="Saikrishna1504/hardware_dolby"
-    path="hardware/dolby"
-    remote="github"
-    revision="bka" />
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
