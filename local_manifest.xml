@@ -38,10 +38,10 @@
 
    <!-- dolby for moto -->
   <project
-    name="Pong-Development/hardware_dolby"
+    name="Saikrishna1504/hardware_dolby"
     path="hardware/dolby"
     remote="github"
-    revision="16" />
+    revision="bka" />
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
