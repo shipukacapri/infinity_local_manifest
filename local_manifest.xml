@@ -4,7 +4,7 @@
 <remote
     name="gitlab"
     fetch="https://gitlab.com/" />
-  
+
   <!-- Device tree for Motorola G10 Power capri (your fork) -->
   <project
       path="device/motorola/capri"
@@ -39,6 +39,13 @@
       name="TheMuppets/proprietary_vendor_motorola_sm6225-common"
       remote="github"
       revision="lineage-22.2" />
+
+    <!-- Override sm7250 GPS to remove obsolete os_pickup (A15 fix) -->
+<project
+    path="hardware/qcom/sm7250/gps"
+    name="shipukacapri/android_hardware_qcom_sm7250_gps"
+    remote="github"
+    revision="lineage-22.0" />
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
