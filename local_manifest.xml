@@ -5,6 +5,34 @@
     name="gitlab"
     fetch="https://gitlab.com/" />
 
+
+    <!-- ===================================================== -->
+<!-- Remove unused Qualcomm SoCs (Android 15 CAF cleanup) -->
+<!-- Device: SM6225 (bengal) -->
+<!-- ===================================================== -->
+
+<!-- sm7250 -->
+<remove-project name="android_hardware_qcom_sm7250_gps" />
+<remove-project name="android_hardware_qcom_sm7250_display" />
+<remove-project name="android_hardware_qcom_sm7250_media" />
+
+<!-- sm8150 -->
+<remove-project name="android_hardware_qcom_sm8150_display" />
+<remove-project name="android_hardware_qcom_sm8150_media" />
+
+<!-- sm8250 -->
+<remove-project name="android_hardware_qcom_sm8250_display" />
+<remove-project name="android_hardware_qcom_sm8250_media" />
+
+<!-- sm8350 -->
+<remove-project name="android_hardware_qcom_sm8350_display" />
+<remove-project name="android_hardware_qcom_sm8350_media" />
+
+<!-- sm8450 -->
+<remove-project name="android_hardware_qcom_sm8450_display" />
+<remove-project name="android_hardware_qcom_sm8450_media" />
+
+
   <!-- Device tree for Motorola G10 Power capri (your fork) -->
   <project
       path="device/motorola/capri"
@@ -39,16 +67,7 @@
       name="TheMuppets/proprietary_vendor_motorola_sm6225-common"
       remote="github"
       revision="lineage-22.2" />
-
-    <!-- Remove upstream sm7250 GPS project -->
-<remove-project name="android_hardware_qcom_sm7250_gps" />
-
-    <!-- Override sm7250 GPS to remove obsolete os_pickup (A15 fix) -->
-<project
-    path="hardware/qcom/sm7250/gps"
-    name="shipukacapri/android_hardware_qcom_sm7250_gps"
-    remote="github"
-    revision="lineage-22.0" />
+    
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
