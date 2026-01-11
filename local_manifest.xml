@@ -40,6 +40,9 @@
       remote="github"
       revision="lineage-22.2" />
 
+    <!-- Remove upstream sm7250 GPS project -->
+<remove-project name="android_hardware_qcom_sm7250_gps" />
+
     <!-- Override sm7250 GPS to remove obsolete os_pickup (A15 fix) -->
 <project
     path="hardware/qcom/sm7250/gps"
