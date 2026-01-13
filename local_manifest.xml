@@ -48,11 +48,6 @@
     revision="lineage-23.1" />
 
   <!-- dolby for moto -->
-  <project
-    name="Saikrishna1504/hardware_dolby"
-    path="hardware/dolby"
-    remote="github"
-    revision="bka" />
 
   <!-- MotoCam Bengal -->
   <project
