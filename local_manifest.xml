@@ -15,9 +15,9 @@
  <!-- Common device tree for sm6225 platform (your fork) -->
   <project
       path="device/motorola/sm6225-common"
-      name="shipukacapri/android_device_motorola_sm6225-common"
+      name="LineageOS/android_device_motorola_sm6225-common"
       remote="github"
-      revision="addition" />
+      revision="lineage-23.1" />
 
    <!-- Kernel tree (your fork) -->
   <project
