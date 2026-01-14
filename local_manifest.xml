@@ -42,10 +42,10 @@
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
-    name="LineageOS/android_hardware_motorola"
+    name="shipukacapri/android_hardware_motorola"
     path="hardware/motorola"
     remote="github"
-    revision="lineage-23.1" />
+    revision="edited" />
 
   <!-- dolby for moto -->
   <project
@@ -55,6 +55,46 @@
     revision="bka" />
 
   <!-- MotoCam Bengal -->
+  <project
+    name="Deivid21/proprietary_vendor_motorola_MotCamera4-bengal"
+    path="vendor/motorola/MotCamera4-bengal"
+    remote="gitlab"
+    revision="android-15" />
+
+  <!-- MotoCam Common -->
+  <project
+    name="Deivid21/proprietary_vendor_motorola_MotCamera-common"
+    path="vendor/motorola/MotCamera-common"
+    remote="gitlab"
+    revision="android-15" />
+
+  <!-- MotoCam Photo editor -->
+  <project
+    name="Deivid21/proprietary_vendor_motorola_MotoPhotoEditor"
+    path="vendor/motorola/MotoPhotoEditor"
+    remote="gitlab"
+    revision="android-15" />
+
+  <!-- MotoCam2AI -->
+  <project
+    name="Deivid21/proprietary_vendor_motorola_MotCamera2AI"
+    path="vendor/motorola/MotCamera2AI"
+    remote="gitlab"
+    revision="android-15" />
+
+  <!-- MotoCam3AI Bengal -->
+  <project
+    name="Deivid21/proprietary_vendor_motorola_MotCamera3AI-bengal"
+    path="vendor/motorola/MotCamera3AI-bengal"
+    remote="gitlab"
+    revision="android-15" />
+
+  <!-- MotoCamAI Common -->
+  <project
+    name="Deivid21/proprietary_vendor_motorola_MotCameraAI-common"
+    path="vendor/motorola/MotCameraAI-common"
+    remote="gitlab"
+    revision="android-15" />
   
 <!-- QCOM vendor SEPolicy (contains device/qcom/sepolicy_vndr/SEPolicy.mk) -->
 
