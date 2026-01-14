@@ -96,6 +96,20 @@
     remote="gitlab"
     revision="android-15" />
   
+  <!-- MotoSignatureApp -->
+  <project
+    name="Deivid21/proprietary_vendor_motorola_MotoSignatureApp"
+    path="vendor/motorola/MotoSignatureApp"
+    remote="gitlab"
+    revision="android-15" />
+
+  <!-- MotoSettingsProvider -->
+  <project
+    name="Deivid21/proprietary_vendor_motorola_MotorolaSettingsProvider"
+    path="vendor/motorola/MotorolaSettingsProvider"
+    remote="gitlab"
+    revision="android-15" />
+  
 <!-- QCOM vendor SEPolicy (contains device/qcom/sepolicy_vndr/SEPolicy.mk) -->
 
 
