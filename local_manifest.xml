@@ -49,7 +49,7 @@
 
   <!-- dolby for moto -->
   <project
-    name="Saikrishna1504/hardware_dolby"
+    name="shipukacapri/hardware_dolby"
     path="hardware/dolby"
     remote="github"
     revision="bka" />
