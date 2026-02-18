@@ -49,10 +49,10 @@
 
    <!-- dolby for moto -->
   <project
-    name="Evolution-X-Devices/hardware_dolby"
+    name="Pong-Development/hardware_dolby"
     path="hardware/dolby"
     remote="github"
-    revision="bka" />
+    revision="16" />
 
   <!-- MotoCam Bengal -->
   <project
