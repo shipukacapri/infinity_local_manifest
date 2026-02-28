@@ -6,21 +6,21 @@
       path="device/motorola/capri"
       name="shipukacapri/android_device_motorola_capri"
       remote="github"
-      revision="evo-qp2" />
+      revision="evo-qp2-erofs" />
 
  <!-- Common device tree for sm6225 platform (your fork) -->
   <project
       path="device/motorola/sm6225-common"
       name="shipukacapri/android_device_motorola_sm6225-common"
       remote="github"
-      revision="dolby-23.2" />
+      revision="erofs-dolby" />
 
    <!-- Kernel tree (your fork) -->
   <project
       path="kernel/motorola/sm6225"
-      name="LineageOS/android_kernel_motorola_sm6225"
+      name="shipukacapri/android_kernel_motorola_sm6225"
       remote="github"
-      revision="lineage-23.2" />
+      revision="erofs" />
   
   <!-- Vendor blobs for capri (your fork) -->
   <project
