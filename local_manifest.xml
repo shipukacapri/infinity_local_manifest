@@ -7,14 +7,14 @@
       path="device/motorola/capri"
       name="shipukacapri/android_device_motorola_capri"
       remote="github"
-      revision="derp-qp2" />
+      revision="derp-qp2-erofs" />
 
  <!-- Common device tree for sm6225 platform (your fork) -->
   <project
       path="device/motorola/sm6225-common"
       name="shipukacapri/android_device_motorola_sm6225-common"
       remote="github"
-      revision="dolby-23.2" />
+      revision="erofs-dolby" />
 
    <!-- Kernel tree (your fork) -->
   <project
